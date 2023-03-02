@@ -5,9 +5,9 @@ int area(int r);
 int main()
 {
     int a,b,area;
-    printf("enter value of a,b:");
-    scanf("%d%d",&a,&b);
-    area=pi*a*b;
+    printf("enter value of a,a:");
+    scanf("%d%d",&a,&a);
+    area=pi*a*a;
     printf("the area is %d",area);
     return 0;
 }
